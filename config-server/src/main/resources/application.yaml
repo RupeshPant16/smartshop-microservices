@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+      git:
+        uri: https://github.com/RupeshPant16/smartshop-config
+
+server:
+  port: 8888
